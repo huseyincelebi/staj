@@ -1,0 +1,22 @@
+{
+    "name": "hgc/staj",
+    "description": "Staj Projesi",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SRC\\": "src/",
+            "APP\\": "app/"
+        },
+        "files" : [
+            "app/routes/web.php"
+          ]
+    },
+    "authors": [
+        {
+            "name": "Huseyin Gorkem Celebi",
+            "email": "hgcelebi@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
